@@ -19,8 +19,8 @@ int main(){
 }
 for(i=0;i<num;i++){
 printf("%d,",sum);
-sum=x+y;
 x=y;
 y=sum;
+sum=x+y;
 	}
 }
